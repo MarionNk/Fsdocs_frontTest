@@ -1,0 +1,60 @@
+*{
+    font: url('../fonts/Poppins-Regular.ttf');
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+body{
+    background: url("../images/trash.webp") no-repeat fixed;
+}
+.login{
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+.logo{
+    max-height: 4rem;
+    max-width: 4rem;
+}
+.logo1{
+    border-right: 1px grey solid ;
+    padding-right: 5px;
+}
+.gstarted{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.gstarted>img{
+    width: 7.3rem;
+    height: 7.3rem;
+}
+#team{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 0.6em 0.2em 0.6em 0.2em;
+  color: white;
+ 
+  background: #0566db;
+  /*background: linear-gradient(0deg, rgb(0, 6, 114) 0%, rgb(9, 62, 222) 100%);
+  border: none; */
+ /* background-image: linear-gradient(to right, #E040FB, #00BCD4);*/ 
+  /*background-image: linear-gradient(to right, #a740fb, #00BCD4); */
+  /*background-image: linear-gradient(to left, #f7ce45 0%, #f97b58 51%, #fbd042 100%);*/
+  /* box-shadow: 0 0.7em 1.5em -0.5em #0b5db598;  */
+  box-shadow: rgba(31, 62, 156, 0.25) 0px 0.0625em 0.0625em, rgba(7, 83, 134, 0.25) 0px 0.125em 0.5em, rgba(9, 85, 162, 0.1) 0px 0px 0px 1px inset;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border-radius: 10em;
+  cursor: pointer;
+}
+.button-88:hover{
+    color: #0566db;
+    background: rgb(252, 252, 252);
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/assets/css/main.css">
+    <link rel="stylesheet" href="public/assets/lib/fontawesome-free-5.13.0-web/css/all.min.css">
+    <title>FSDOCS</title>
+</head>
+<body class="bg-body container-fluid">
+    <div class="row testmain">
+        
+        <div class="menu col-8 col-md-3 pt-3 text-center d-none d-md-block">
+            
+            <div class="d-flex justify-content-center mb-2">
+                <div class="logo1 mx-1">
+                    <img class="logo" src="public/assets/images/UDLogo.jpg">
+                </div>
+                <div class="">
+                    <img class="logo" src="public/assets/images/LOGOFS-removebg-preview.png">
+                </div>
+            </div>
+                
+            <h4 class="fw-bolder mx-3 pt-2 text-black">
+                FSDOCS
+            </h4>
+            <p class="mt-4 mb-2">
+                Pour affiner votre recherche, appliquer le filtre ci-dessous
+            </p> 
+
+            <div class="mt-4 row mx-4" id="">
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Année Académique</option>
+                    <option value="1">2022-2023</option>
+                    <option value="2">2021-2022</option>
+                    <option value="3">2020-2021</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Type de Formation</option>
+                    <option value="1">Formation Professionnelle</option>
+                    <option value="2">Formation Classique</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Filière</option>
+                    <option value="1">ACQMT</option>
+                    <option value="2">MIAGE</option>
+                    <option value="2">BIOCHIMIE</option>
+                    <option value="2">INFORMATIQUE</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Niveau</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="2">4</option>
+                    <option value="2">5</option>
+                </select> 
+                               
+            </div>
+            <div class=" mt-5 mb-3">
+                <a name="" id="" class="button-88 px-3 fw-bolder mx-4 " href="#" role="button"> Actualiser&nbsp;
+                    <i class="fa fa-redo" aria-hidden="true"></i>
+                </a>
+            </div>  
+
+            <!-- <div class=" mt-2 d-none d-md-block ">
+                <a name="" id="" class="button-88 px-3 mt-4 fw-bolder mx-4 " href="#" role="button"> Deconnexion&nbsp;
+                    <i class="fa fa-sign-out-alt " aria-hidden="true"></i>
+                </a>
+            </div> -->
+            
+        </div>
+        <div class="menu col-8 d-md-none" id="menu"><!-- small menu for mobile -->
+            <div class=" d-flex justify-content-end">
+                <a class="closebtn" onclick="closeNav()">
+                    <i class="fa fa-times-circle fa-lg" aria-hidden="true"></i>
+                </a>
+            </div>
+            <p class="mt-4 mx-4">
+                Pour affiner votre recherche, appliquer le filtre ci-dessous
+            </p> 
+
+            <div class="mt-4 row mx-4" id="">
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Année Académique</option>
+                    <option value="1">2022-2023</option>
+                    <option value="2">2021-2022</option>
+                    <option value="3">2020-2021</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Type de Formation</option>
+                    <option value="1">Formation Professionnelle</option>
+                    <option value="2">Formation Classique</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Filière</option>
+                    <option value="1">ACQMT</option>
+                    <option value="2">MIAGE</option>
+                    <option value="2">BIOCHIMIE</option>
+                    <option value="2">INFORMATIQUE</option>
+                </select>                  
+                <select class="form-select form-select-md mb-3 inp" aria-label=".form-select-lg example">
+                    <option selected>Niveau</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="2">3</option>
+                    <option value="2">4</option>
+                    <option value="2">5</option>
+                </select> 
+                               
+            </div>
+            <div class=" mt-5 mb-3">
+                <a name="" id="" class="button-88 px-3 fw-bolder mx-4 " href="#" role="button"> Actualiser&nbsp;
+                    <i class="fa fa-redo" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="main col-12 col-md-9 px-0" id="main">
+            <div class="d-md-none mt-3">
+                <div class="d-flex justify-content-center mb-2">
+                    <div class="logo1 mx-1">
+                        <img class="logo" src="public/assets/images/UDLogo.jpg">
+                    </div>
+                    <div class="">
+                        <img class="logo" src="public/assets/images/LOGOFS-removebg-preview.png">
+                    </div>
+                </div>
+                    
+                <h4 class="fw-bolder mx-3 pt-2 text-black text-center">
+                    FSDOCS
+                </h4>
+            </div>
+            <div class="navb px-4 pt-2 text-black d-flex justify-content-end d-none d-md-flex">
+                
+                <div class="pt-2 text-center">
+                    <p class="fw-bold text-black">
+                        <span><i class="fa fa-user-circle" aria-hidden="true"></i>
+                            User#1234 - Administrateur</span>
+                        <a name="" id="" class="logout fw-bolder mx-4 px-2 " href="#" role="button">
+                            <i class="fa fa-power-off " aria-hidden="true"></i> 
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-left mt-2 mb-3 ">
+                <a name="" id="" 
+                    class="logout fw-bolder mx-4 px-2 fw-smaller d-md-none"
+                    onclick="myFunction()"
+                    href="#" role="button">
+                    Filtrer
+                    <i class="fa fa-filter fa-sm" aria-hidden="true"></i> 
+                </a>
+            </div>
+            <div class="row mx-3 mx-md-5 mt-md-4">
+                <div class="col-sm-4 mb-3">
+                    <div class="input-group flex-nowrap">
+                        <input type="text" class="form-control inp2" placeholder="Nom de l'étudiant" aria-label="Nom de l'étudiant" aria-describedby="addon-wrapping">
+                        <button class="input-group-text  inp3" id="addon-wrapping">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 mx-mb-2 mb-3">
+                    <div class="input-group flex-nowrap">
+                        <input type="number" class="form-control inp2" placeholder="Identifiant de l'etudiant" aria-label="Identifiant de l'etudiant" aria-describedby="addon-wrapping">
+                        <button class="input-group-text  inp3" id="addon-wrapping">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-3">
+                    <div class="input-group flex-nowrap">
+                        <input type="number" class="form-control inp2" placeholder="Matricule de l'etudiant" aria-label="Matricule de l'etudiant" aria-describedby="addon-wrapping">
+                        <button class="input-group-text  inp3" id="addon-wrapping">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-3 mx-md-5 mt-4 mb-5 table-responsive mytab bg-white">
+                <table class="table table-hover bg-white">
+                    <thead>
+                        <tr>
+                            <th>IDENTIFIANT</th>
+                            <th>MATRICULE</th>
+                            <th>NOMS</th>
+                            <th>PRENOMS</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2103459284</td>
+                            <td>21S45178</td>
+                            <td>NOBUE MEKUATE</td>
+                            <td>Anne K</td>
+                            <td>
+                                <a href=""><i class="fa fa-eye icon-operation text-black" aria-hidden="true"></i></a>
+                            </td>
+                            <td>
+                                <a href=""><i class="fa fa-download icon-operation text-success" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2103459335</td>
+                            <td>21S32178</td>
+                            <td>SANI TATSA</td>
+                            <td>Clara A</td>
+                            <td>
+                                <a href=""><i class="fa fa-eye icon-operation text-black" aria-hidden="true"></i></a>
+                            </td>
+                            <td>
+                                <a href=""><i class="fa fa-download icon-operation text-success" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2103459284</td>
+                            <td>21S40005</td>
+                            <td>Nobue Mekuate</td>
+                            <td>Anne K</td>
+                            <td>
+                                <a href=""><i class="fa fa-eye icon-operation text-black" aria-hidden="true"></i></a>
+                            </td>
+                            <td>
+                                <a href=""><i class="fa fa-download icon-operation text-success" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- <div class="footer d-flex justify-content-center">
+            <p class="m-0 fw-bold p-1">Marion Nkuekam FS-UD. All rights reserved 2022</p>
+        </div> -->
+    </div>
+    <script src="./public/assets/js/main.js"></script>
+</body>
+</html>
